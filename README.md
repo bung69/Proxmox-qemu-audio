@@ -8,7 +8,7 @@ nano /etc/apt/sources.list
 ```
 
 ```
-# proxmox devekopment repo
+# proxmox development repo
 deb http://download.proxmox.com/debian/devel/ bullseye main
 ```
  then 
