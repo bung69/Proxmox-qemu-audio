@@ -47,6 +47,13 @@ change to
 --audio-drv-list="alsa jack"
 ```
 
+if pipewire is installed to replace jack, unlink before compilling qemu
+
+```
+rm /etc/ld.so.conf.d/pipewire-jack-*
+rm /etc/pipewire/media-session.d/with-jack
+ldconfig
+```
 make deb package
 
 ```
