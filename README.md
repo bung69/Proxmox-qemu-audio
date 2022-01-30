@@ -1,5 +1,5 @@
 # Proxmox-qemu-audio
-Rebuiild proxmox qemu with audio spport ( jack alsa )
+Rebuiild proxmox qemu with audio spport ( jack, alsa etc)
 
 
 Add proxmox development repo to soruces
