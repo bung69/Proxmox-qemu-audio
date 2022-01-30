@@ -74,3 +74,12 @@ use x11 fowarding to access qjackctl
 ```
 ssh -X username@hostorip
 ```
+
+
+
+## references
+pipewire instal instructions ( reverse engineerd the unlinking)
+https://wiki.debian.org/PipeWire
+
+gnif's jack qemu instructions:
+https://forum.level1techs.com/t/qemu-native-jack-audio-support/156494
