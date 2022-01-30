@@ -59,3 +59,18 @@ make deb package
 ```
 run make deb
 ```
+
+
+add the folowing to vm config args line
+```
+nano /etc/pve/qemu-server/VMID.conf
+```
+```
+-audiodev id=jack,driver=jack -device ich9-intel-hda -device hda-duplex,audiodev=jack
+```
+
+use x11 fowarding to access qjackctl
+
+```
+ssh -X username@hostorip
+```
